@@ -1,0 +1,152 @@
+[
+   {
+      "id": 98077,
+      "cover": 85409,
+      "genres": [
+         5,
+         10,
+         14,
+         31
+      ],
+      "name": "Grand Theft Auto V: Premium Online Edition",
+      "platforms": [
+         6,
+         48,
+         49
+      ],
+      "rating": 96.30950738847719
+   },
+   {
+      "id": 55077,
+      "cover": 76266,
+      "genres": [
+         12,
+         13,
+         14,
+         15,
+         32
+      ],
+      "name": "Beast Battle Simulator",
+      "platforms": [
+         6,
+         39
+      ],
+      "rating": 96.4117226590422
+   },
+   {
+      "id": 153700,
+      "cover": 172563,
+      "genres": [
+         12,
+         31
+      ],
+      "name": "Ghost of Tsushima: Director's Cut",
+      "platforms": [
+         48,
+         167
+      ],
+      "rating": 96.0673353744839
+   },
+   {
+      "id": 112191,
+      "cover": 182133,
+      "genres": [
+         12,
+         13,
+         16
+      ],
+      "name": "Epic Seven",
+      "platforms": [
+         14,
+         34,
+         39
+      ],
+      "rating": 97.4338182205168
+   },
+   {
+      "id": 165192,
+      "cover": 168438,
+      "genres": [
+         12,
+         31
+      ],
+      "name": "The Elder Scrolls V: Skyrim - Anniversary Edition",
+      "platforms": [
+         6,
+         48,
+         49,
+         130,
+         167,
+         169
+      ],
+      "rating": 99.45343172808981
+   },
+   {
+      "id": 20196,
+      "cover": 193803,
+      "genres": [
+         12,
+         31
+      ],
+      "name": "Metal Gear Solid: The Legacy Collection",
+      "platforms": [
+         9
+      ],
+      "rating": 99.6845032496081
+   },
+   {
+      "id": 140204,
+      "cover": 118374,
+      "genres": [
+         5,
+         31,
+         32,
+         33
+      ],
+      "name": "BroodStar",
+      "platforms": [
+         6
+      ],
+      "rating": 96.3636363636364
+   },
+   {
+      "id": 176552,
+      "cover": 187002,
+      "genres": [
+         13
+      ],
+      "name": "Animal Crossing: New Horizons - Happy Home Paradise",
+      "platforms": [
+         130
+      ],
+      "rating": 96.3093869207136
+   },
+   {
+      "id": 11374,
+      "cover": 95839,
+      "genres": [
+         5,
+         8
+      ],
+      "name": "Creatures",
+      "platforms": [
+         15,
+         16,
+         63
+      ],
+      "rating": 96.6246452784717
+   },
+   {
+      "id": 11226,
+      "cover": 10508,
+      "genres": [
+         13,
+         14
+      ],
+      "name": "Anstoss 3",
+      "platforms": [
+         6
+      ],
+      "rating": 99.5949901491677
+   }
+]
