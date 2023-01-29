@@ -92,22 +92,26 @@ def find_recommendations():
     recommendations = pd.DataFrame(recommendations, columns=['Name'])
 
     # check if file exists, else create new one
-    if os.path.isdir('./recommendations/user_recommendations.csv'):
-        user_recommendations = pd.read_csv(
-            'recommendations/user_recommendations.csv')
-        new_recommendations = []
-        for i in range(len(recommendations)):
-            if recommendations['Name'][i] not in user_recommendations['Name']:
-                new_recommendations.append(recommendations['Name'][i])
-        new_recommendations.to_csv(
-            'recommendations/user_recommendations.csv', mode='a', index=False, header=False)
-    else:
-        recommendations.to_csv('recommendations/user_recommendations.csv')
+    # if os.path.isdir('./recommendations/user_recommendations.csv'):
+    #    user_recommendations = pd.read_csv(
+    #        'recommendations/user_recommendations.csv')
+    #    new_recommendations = []
+    #    for i in range(len(recommendations)):
+    #        if recommendations['Name'][i] not in user_recommendations['Name']:
+    #            new_recommendations.append(recommendations['Name'][i])
+    #    new_recommendations.to_csv(
+    #        'recommendations/user_recommendations.csv', mode='a', index=False, header=False)
+    # else:
+    #   recommendations.to_csv('recommendations/user_recommendations.csv')
 
-#------------------------------------#
-# Code for returning recommendations #
-#------------------------------------#
-# returns an array of 10 random strings from JSON file
+    # create and re-write recommendations
+    recommendations.to_csv('recommendations/user_recommendations.csv')
+
+#-----------------------------------#
+# Code for creating recommendations #
+#-----------------------------------#
+# creates a file containing an array of all recommendations, 'user_recommendations.csv'
+# creates a file containing 10 random strings from all recommendations, 'rand10_user_recommendations.csv'
 
 
 def return_recommendations():
@@ -128,4 +132,5 @@ def return_recommendations():
                 recommendations_list.append(
                     user_recommendations['Name'][random_num])
 
-    return recommendations_list
+    recommendations_list.to_json(
+        'recommendations/rand10_user_recommendations.csv')
