@@ -12,7 +12,6 @@ const GameFeed = () =>{
         setNewGame(res.data)
         //console.log(newGame)
     }
-    //const popGames = fetchPopular()
     useEffect(()=>{fetchPopular()}, [])
     console.log(newGame[0])
     return(

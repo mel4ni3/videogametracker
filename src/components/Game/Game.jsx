@@ -22,7 +22,8 @@ const Game = ({gameData}) =>{
                 <div className='game_bottom'>
                     <div>
                         {/* Add rating and icons?*/}
-                        
+                        <img className="add_game_icon" src="https://www.freeiconspng.com/uploads/plus-icon-black-2.png" width="350" alt="Plus Icon Black" />
+                        <img className="add_game_icon" src="https://icons.veryicon.com/png/o/commerce-shopping/fine-edition-mall-icon/wishlist-1.png" width="350" alt="Plus Icon Black" />
                     </div>
                 </div>
             </div>

@@ -42,9 +42,12 @@
     display: flex;
     flex-direction: column;
 }
-.more_icon{
-    width: 4%;
+.add_game_icon{
+    
+    width: 5%;
     border-radius: 100%;
     margin-left: 1em;
     margin-bottom: 1em;
+   
+    
 }
