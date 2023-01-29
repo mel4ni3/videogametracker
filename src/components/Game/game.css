@@ -19,7 +19,7 @@
     
 }
 .game_pic{
-    width: 30%;
+    width: 20%;
     margin: 1em;
 }
 .game_title_text{
@@ -31,6 +31,12 @@
     font-size: large;
     margin-left: 1em;
     margin-top: 1em;
+}
+.game_rating_text{
+    font-size: large;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .top_text_box{
     display: flex;
