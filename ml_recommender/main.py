@@ -10,8 +10,7 @@
 
 # recommend.find_recommendations()
 
-# instead of printing, take output of this line for frontend
-# returns an array of 10 strings of the recommended game's names,
 # random from a bigger list of recommendations (saved to user_recommendations.csv)
+# 10 random from user_recommendations.csv (saved to rand10_user_recommendations.csv)
 
-# print(recommend.return_recommendations())
+# (recommend.return_recommendations())
