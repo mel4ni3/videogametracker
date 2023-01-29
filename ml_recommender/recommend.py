@@ -133,4 +133,4 @@ def return_recommendations():
                     user_recommendations['Name'][random_num])
 
     recommendations_list.to_json(
-        'recommendations/rand10_user_recommendations.csv')
+        'recommendations/rand10_user_recommendations.json')
